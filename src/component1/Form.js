@@ -35,7 +35,7 @@ import axios from "axios";
 
     return (
         <>
-           <div>
+           
             <div className=" w-50 border bg-white shadow px-5 pt-3 pb-5 rounded">
                 <h2>Add Customer</h2>
                 <form>
@@ -143,7 +143,7 @@ import axios from "axios";
                     </div>
                 </form>
             </div>
-         </div>
+         
         </>
     );
 };

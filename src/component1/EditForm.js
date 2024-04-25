@@ -27,7 +27,7 @@ const EditForm = () => {
         .then((resp) =>setInputdata(resp.data))
        .catch((err) => console.log(err));
         },[])
-     //console.log("id===>" + id);
+    
 
     function handleSubmit(e) {
         e.preventDefault();

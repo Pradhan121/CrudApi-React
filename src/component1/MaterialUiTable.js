@@ -71,9 +71,7 @@ function MaterialUiTable() {
                       <TableBody>
                           {rows &&
                               rows
-                                  //.slice(page * rowPage, page * rowPage * rowPage  )
-
-                                  .map((row, i) => {
+                                .map((row, i) => {
                                       return (
                                           <TableRow key={i}>
                                               <TableCell>
